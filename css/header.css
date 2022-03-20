@@ -1,3 +1,16 @@
 .wrapper-header{
     max-width: 1400px;
 }
+
+.wrapper-header table{
+    width:100%;
+}
+
+.wrapper-header table tr{
+    vertical-align: top;
+}
+
+.wrapper-header-logo-image{
+    width: 500px;
+    height:200px;
+}
