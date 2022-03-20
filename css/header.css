@@ -11,6 +11,42 @@
 }
 
 .wrapper-header-logo-image{
-    width: 500px;
-    height:200px;
+    width: 300px;
+}
+
+.wrapper-header-logo-image img{
+    width: 100%;
+}
+
+.container-social-media ul{
+    list-style-type: none;
+}
+
+.container-social-media ul li{
+    float:left;
+    padding: 0 10px;
+    padding-top: 40px;
+}
+
+.social-icons{
+    width:40px;
+}
+
+.social-icons img{
+    width:100%;
+}
+
+
+.inquire-button{
+    font-size: 1em;
+}
+
+.inquire-button a{
+    text-decoration: none;
+}
+
+.inquire-button a p{
+    padding:10px 50px;
+    border: 5px solid #7b241c;
+    color:#7b241c;
 }
