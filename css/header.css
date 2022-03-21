@@ -1,0 +1,71 @@
+.ribbon {
+    display: grid; 
+    grid-template-columns: 1fr 1fr; 
+    width: 100%; 
+    margin-bottom: 0px;
+}
+
+.column1 {
+    margin: 10px; 
+}
+.column2 {
+    margin: 10px; 
+}
+
+
+.logo{
+    width: 300px;
+}
+
+#address {
+    font-family: sans-serif;
+    font-size: 15px;
+    padding-left: 10px;
+}
+/* SOCIAL MEDIA BUTTONS */
+ul.socialmedia_buttons {
+    padding-top: 20px;
+    padding-left: 0px;
+    text-align: right;
+}
+ul.socialmedia_buttons > li {
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+.inquiry {
+    text-align: center;
+    font-family: sans-serif;
+
+}
+
+/* Navigation Bar */
+#nav {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    text-align: center;
+    background-color: white; 
+    padding:1% 0 1% 0; 
+    border-top: 2px solid #7B241C; 
+    border-bottom: 2px solid #7B241C; 
+    border-left: 0px solid white; 
+    border-right: 0px solid white;
+}
+
+/* Navigation Buttons */
+ul.navbuttons {
+    padding-left: 0px;
+}
+
+ul.navbuttons > li {
+    display: inline-block;
+    padding: 10px 20px;
+    font-family: sans-serif;
+}
+
+ul.navbuttons > li > a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
