@@ -10,3 +10,11 @@ body{
 .centered{
     margin: 0px auto;
 }
+
+.wrapper-all{
+    max-width: 1400px;
+}
+
+table{
+    width:100%;
+}
