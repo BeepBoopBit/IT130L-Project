@@ -50,3 +50,8 @@
     border: 5px solid #7b241c;
     color:#7b241c;
 }
+
+.sticky{
+    position: sticky;
+    top:0px;
+}
