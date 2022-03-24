@@ -1,3 +1,8 @@
+.wrapper-header{
+    max-width: 1700px;
+    z-index: 3;
+    background-color: #eaf1f5;
+}
 .wrapper-header table{
     width:100%;
 }
@@ -8,6 +13,7 @@
 
 .wrapper-sweet-solution-logo{
     width: 300px;
+    padding: 20px 20px 5px 20px;
 }
 
 .wrapper-sweet-solution-logo img{
@@ -16,7 +22,8 @@
 
 .wrapper-sweet-solution-information p {
     margin: 0px; 
-    padding-top: 10px
+    padding-top: 10px;
+    padding-bottom: 20px;
 }
 
 .container-social-media ul{

@@ -1,19 +1,19 @@
-.speciality-section {
+.specialty-section {
     width: 100%;
-    height: 725px;
+    height: 825px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.container {
+.specialty-container {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
 }
 
-.box1-item {
+.specialty-box1-item {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -21,10 +21,13 @@
     z-index: 1;
 }
 
-.box1-item h1 {
+.specialty-box1-item h1 {
     text-transform: uppercase;
     margin: 20px 0px;
-    color: white;
+    color: black;
+    font-size: 4em;
+    margin-left: -1.5%;
+    text-align: left;
 }
 
 .button {
@@ -43,15 +46,21 @@
     background: #e4592f;
 }
 
-.gallery {
+.specialty-gallery {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
+    margin-left: -7%;
+    margin-top: 25%;
 }
 
-.box2-item {
+.specialty-gallery div{
+    margin:1%;
+}
+
+.specialty-box2-item {
     position: relative;
-    margin-left: -400px;
+    margin-left: -40%;
 }
 
 .menu-section {
