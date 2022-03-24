@@ -1,0 +1,21 @@
+.aboutus-h3{
+    font-size: 30px;
+    font-family: Arial;
+}
+
+.aboutus-hr{
+    margin: auto 40%;
+}
+
+.aboutus-top{
+    text-align: center;
+}
+
+.aboutus-tablepos{
+    position: relative;
+    width:55%; 
+    margin: 2px;
+    left: 22%;
+    font-family: Calibri;
+    font-size: 18px;
+}
