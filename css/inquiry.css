@@ -15,21 +15,7 @@
 
 }
 
-*,
-*::before,
-*::after{
-    margin : 0;
-    padding: 0;
-    box-sizing: inherit;
-}
-
-html{
-    font-family: sans-serif;
-    font-size: 10px;
-    box-sizing: border-box;
-}
-
-section{
+.question-wrapper{
     width: 100%;
     height: 70vh;
     background-color: white;
@@ -107,7 +93,7 @@ section{
 
 .accordion-item:target .accordion-link .icon-downarrow{
     display: none;
-    align: right;
+    text-align: center; /* TEMP */
 }
 
 .accordion-item:target .accordion-link .icon-uparrow{

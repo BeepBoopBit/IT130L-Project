@@ -1,8 +1,3 @@
-@font-face {
-    font-family: BAHNSCHRIFT;
-    src: url(BAHNSCHRIFT.TTF);
-}
-
 .best-sellers-img {
     position: relative;
     text-align: center;
@@ -10,30 +5,28 @@
 }
 
 .best-sellers-text1 {
-    position: absolute;
-    bottom: 1050px;
+    position: relative;
+    bottom: 900px;
     left: 100px;
     font-weight: bold;
-    font-family: BAHNSCHRIFT;
     font-size: 70px;
     text-align: left;
 }
 
 .best-sellers-text2 {
-    position: absolute;
+    position: relative;
     bottom: 850px;
     left: 100px;
-    font-family: BAHNSCHRIFT;
     font-size: 40px;
     text-align: left;
     padding-right: 900px;
+    color:red;
 }
 
 .full-menu-button {
-    position: absolute;
-    bottom: 750px;
-    left: 100px;
-    font-family: BAHNSCHRIFT;
+    position: relative;
+    bottom: 800px;
+    left: -500px;
     font-size: 30px;
     text-align: left;
     text-decoration: none;
@@ -52,32 +45,32 @@
 
 .best-seller1{
     position: absolute;
-    bottom: 100px;
-    left: 100px;
-    height: 550px;
-    width: 500px;
+    bottom: -1150px;
+    left: 2200px;
+    height: 250px;
+    width: 250px;
     background-color: white;
 }
 
 .best-seller2{
     position: absolute;
     bottom: 100px;
-    left: 700px;
-    height: 550px;
-    width: 500px;
+    left: 2500px;
+    height: 250px;
+    width: 250px;
     background-color: white;
 }
 
 .best-seller3{
     position: absolute;
     bottom: 100px;
-    left: 1300px;
-    height: 550px;
-    width: 500px;
+    left: 2900px;
+    height: 250px;
+    width: 250px;
     background-color: white;
 }
 
-.best-seller-imgs{
+.best-seller-images{
     padding-top: 50px;
 }
 
@@ -86,6 +79,5 @@
     bottom: 10px;
     left: 50px;
     color: black;
-    font-family: BAHNSCHRIFT;
     font-size: 30px;
 }
