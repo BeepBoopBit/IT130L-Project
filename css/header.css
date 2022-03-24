@@ -1,7 +1,3 @@
-.wrapper-header{
-    max-width: 1400px;
-}
-
 .wrapper-header table{
     width:100%;
 }
@@ -10,12 +6,17 @@
     vertical-align: top;
 }
 
-.wrapper-header-logo-image{
+.wrapper-sweet-solution-logo{
     width: 300px;
 }
 
-.wrapper-header-logo-image img{
+.wrapper-sweet-solution-logo img{
     width: 100%;
+}
+
+.wrapper-sweet-solution-information p {
+    margin: 0px; 
+    padding-top: 10px
 }
 
 .container-social-media ul{
