@@ -1,71 +1,57 @@
-.ribbon {
-    display: grid; 
-    grid-template-columns: 1fr 1fr; 
-    width: 100%; 
-    margin-bottom: 0px;
+.wrapper-header table{
+    width:100%;
 }
 
-.column1 {
-    margin: 10px; 
-}
-.column2 {
-    margin: 10px; 
+.wrapper-header table tr{
+    vertical-align: top;
 }
 
-
-.logo{
+.wrapper-sweet-solution-logo{
     width: 300px;
 }
 
-#address {
-    font-family: sans-serif;
-    font-size: 15px;
-    padding-left: 10px;
-}
-/* SOCIAL MEDIA BUTTONS */
-ul.socialmedia_buttons {
-    padding-top: 20px;
-    padding-left: 0px;
-    text-align: right;
-}
-ul.socialmedia_buttons > li {
-    display: inline-block;
-    padding: 10px 20px;
+.wrapper-sweet-solution-logo img{
+    width: 100%;
 }
 
-.inquiry {
-    text-align: center;
-    font-family: sans-serif;
-
+.wrapper-sweet-solution-information p {
+    margin: 0px; 
+    padding-top: 10px
 }
 
-/* Navigation Bar */
-#nav {
-    margin-top: 0px;
-    margin-bottom: 0px;
-    padding-left: 0px;
-    padding-right: 0px;
-    text-align: center;
-    background-color: white; 
-    padding:1% 0 1% 0; 
-    border-top: 2px solid #7B241C; 
-    border-bottom: 2px solid #7B241C; 
-    border-left: 0px solid white; 
-    border-right: 0px solid white;
+.container-social-media ul{
+    list-style-type: none;
 }
 
-/* Navigation Buttons */
-ul.navbuttons {
-    padding-left: 0px;
+.container-social-media ul li{
+    float:left;
+    padding: 0 10px;
+    padding-top: 40px;
 }
 
-ul.navbuttons > li {
-    display: inline-block;
-    padding: 10px 20px;
-    font-family: sans-serif;
+.social-icons{
+    width:40px;
 }
 
-ul.navbuttons > li > a {
-    color: rgb(0, 0, 0);
+.social-icons img{
+    width:100%;
+}
+
+.inquire-button{
+    font-size: 1em;
+}
+
+.inquire-button a{
     text-decoration: none;
+}
+
+.inquire-button a p{
+    padding:10px 50px;
+    border: 5px solid #7b241c;
+    color:#7b241c;
+}
+
+.sticky{
+    position: sticky;
+    top:0px;
 }
