@@ -1,3 +1,82 @@
+.best-seller-container{
+    width: 100%;
+    height: 1000px;
+    text-align: left;
+    background-image: url("../img/Best-Seller-img1.jpg");
+}
+
+.best-seller-information{
+    position: relative;
+    color: white;
+    font-weight: bold;
+    margin-left: 10%;
+    padding-top: 5%;
+    width: 50%;
+}
+
+.best-seller-information h1{
+    font-size: 5em;
+}
+
+.best-seller-information p{
+    font-size: 2em;
+}
+
+.best-seller-button{
+    position: relative;
+    font-weight: bold;
+    margin-left: 10%;
+    padding-top: 5%;
+    width: 50%;
+}
+
+.best-seller-button a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.5em;
+    padding: 5px 20px;
+    border: 2px solid white;
+}
+
+.best-seller-images{
+    position: relative;
+    font-weight: bold;
+    margin-left: 10%;
+    padding-top: 5%;
+}
+
+#best-seller-image01{
+    background-color: #eee;
+    width: 250px;
+    height: 250px;
+}
+
+#best-seller-image02{
+    background-color: #eee;
+    width: 250px;
+    height: 250px;
+}
+
+#best-seller-image03{
+    background-color: #eee;
+    width: 250px;
+    height: 250px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .best-sellers-img {
     position: relative;
     text-align: center;
@@ -70,7 +149,7 @@
     background-color: white;
 }
 
-.best-seller-images{
+.best-seller-imgs{
     padding-top: 50px;
 }
 

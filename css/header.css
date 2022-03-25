@@ -1,3 +1,8 @@
+.wrapper-header{
+    max-width: 1700px;
+    z-index: 3;
+    background-color: #eaf1f5;
+}
 .wrapper-header table{
     width:100%;
 }
@@ -8,6 +13,7 @@
 
 .wrapper-sweet-solution-logo{
     width: 300px;
+    padding: 20px 20px 5px 20px;
 }
 
 .wrapper-sweet-solution-logo img{
@@ -16,7 +22,8 @@
 
 .wrapper-sweet-solution-information p {
     margin: 0px; 
-    padding-top: 10px
+    padding-top: 10px;
+    padding-bottom: 20px;
 }
 
 .container-social-media ul{
@@ -54,4 +61,28 @@
 .sticky{
     position: sticky;
     top:0px;
+}
+
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content{
+    visibility: hidden;
+    opacity: 0;
+    position:absolute;
+    background-color: rgba(250, 250, 250,0.9);
+    min-width: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index:1;
+    margin-top: -50px;
+    transform: translateX(-100%);
+    transition: visibility 0.2s, opacity 0.2s linear;
+}
+
+.dropdown:hover .dropdown-content{
+    visibility:visible;
+    opacity: 1;
 }

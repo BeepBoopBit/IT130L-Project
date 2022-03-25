@@ -20,7 +20,7 @@
 </head>
 
 <body>
-    <header class=" wrapper-all wrapper-header centered sticky">
+    <header class="wrapper-header centered sticky">
         <div>
             <table>
                 <!-- Logo and the other social media stuff-->
@@ -54,10 +54,54 @@
                                 </li>
                                 <!-- Placeholder for Top Navigation -->
                                 <li>
-                                    <div style="width:50px">
-                                        <a href="#">
-                                            <img src="img/Icon_LinkedIn.png" alt="" width="100%">
+                                    <div class="dropdown" style="width:50px">
+                                        <a  href="#">
+                                            <img src="img/Icon_Navigation-01.png" alt="" width="100%">
                                         </a>
+                                        <div class="dropdown-content">
+                                            <ul>
+                                                <li>
+                                                    <a href="">
+                                                        Home
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="">
+                                                        About us
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="">
+                                                        Gallery
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="">
+                                                        Vide
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="">
+                                                        FAQ
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="">
+                                                        SHOP
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="">
+                                                        Branches
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="">
+                                                        Hire Us
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
                                     </div>
                                 </li>
                             </ul>
@@ -99,50 +143,30 @@
         </div>
 
         <!-- SPECIALTY (RESPONSIVENESS) -->
-        <article class="speciality-section wrapper-all centered">
-            <div class="container">
-                <div class="box1-item">
+        <article class="specialty-section wrapper-all centered">
+            <div class="specialty-container">
+                <div class="specialty-box1-item">
                     <h1>Speciality<br>cakes & more</h1>
                     <a href="" class="button">Contact us</a>
                     <!--Image Container-->
-                    <div class="gallery">
-                        <div style="background-color: rgb(139, 138, 138); width:150px; height: 150px; margin: 5px">IMAGE
-                            HERE </div>
-                        <div style="background-color: rgb(104, 104, 104); width:150px; height: 150px; margin: 5px">IMAGE
-                            HERE </div>
-                        <div style="background-color: rgb(161, 161, 161); width:150px; height: 150px; margin: 5px">IMAGE
-                            HERE </div>
+                    <div class="specialty-gallery">
+                        <div style="background-color: rgb(139, 138, 138); width:230px; height: 230px;">
+                            IMAGE HERE
+                        </div>
+                        <div style="background-color: rgb(104, 104, 104); width:230px; height: 230px;">
+                            IMAGE HERE 
+                        </div>
+                        <div style="background-color: rgb(139, 138, 138); width:230px; height: 230px;">
+                            IMAGE HERE
+                        </div>
                     </div>
                 </div>
-                <div class="box2-item">
-                    <div style="background-color: rgb(61, 61, 61); width:1000px; height: 430px;">IMAGE HERE </div>
+                <div class="specialty-box2-item">
+                    <div style="background-color: rgb(61, 61, 61); width:1100px; height: 630px;">IMAGE HERE </div>
                 </div>
             </div>
         </article>
 
-        <!-- BEST SELLER -->
-        <article >
-            <div class="best-sellers-images">
-                <img src="img/Best-Seller-img1.jpg" alt="bestsellerimg1" style="width:100%;">
-                    <!-- BEST SELLERS TEXT AND BUTTON -->
-                    <div class="best-sellers-text1">
-                        BEST <br> SELLERS
-                    </div>
-                    <div class="best-sellers-text2">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum maiores, nobis quibusdam saepe nemo rem suscipit nam adipisci fuga corporis?
-                    </div>
-                    <div>
-                        <a href="Menu.html">
-                            <button class="full-menu-button">
-                                <span>
-                                    FULL MENU
-                                </span>
-                            </button>
-                        </a>
-                    </div>
-
-            </div>
-        </article>
 
         <!-- ABOUT US(RESPONSIVENESS) (DESIGN) (CENTER TAG WAS USE) -->
         <article>
@@ -178,24 +202,72 @@
             </div>
         </article>
 
+        <br>
+        <br>
+        <br>
 
-
-        <footer>
-            <div class="footer-content">
-                <ul class="socials">
-                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                    <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                    <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                </ul>
+        <!-- Best Seller-->
+        <article>
+            <div class="best-seller-container">
+                <div class="best-seller-information">
+                    <h1>
+                        Best <br>
+                        Seller
+                    </h1>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic facilis magnam et ipsam est nisi sit, laborum facere quibusdam molestias consequuntur ad eligendi provident consectetur minus quasi? Assumenda, temporibus soluta.
+                    </p>
+                </div>
+                <div class="best-seller-button">
+                    <a href="">
+                        FULL MENU
+                    </a>
+                </div>
+                <div class="best-seller-images">
+                    <table>
+                        <tr>
+                            <td>
+                                <div id="best-seller-image01">
+                                    IMG HERE
+                                </div>
+                            </td>
+                            
+                            <td>
+                                <div id="best-seller-image02">
+                                    IMG HERE
+                                </div>
+                            </td>
+                            
+                            <td>
+                                <div id="best-seller-image03">
+                                    IMG HERE
+                                </div>                                
+                            </td>
+                        </tr>
+                    </table>
+                </div>
             </div>
-            <div class="footer-bottom">
-                <p>Sweet Solutions Bakeshop (Main), B 2 L 8 Simeona Street, Imus, Cavite
-                </p>
-            </div>
-        </footer>
+        </article>
 
+        <br>
+        <br>
+        <br>
     </section>
+
+    <footer class="centered">
+        <div class="footer-content">
+            <ul class="socials">
+                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+            </ul>
+        </div>
+        <div class="footer-bottom">
+            <p>Sweet Solutions Bakeshop (Main), B 2 L 8 Simeona Street, Imus, Cavite
+            </p>
+        </div>
+    </footer>
 
 </body>
 
