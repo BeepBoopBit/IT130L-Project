@@ -1,0 +1,32 @@
+
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 0 0;
+}
+
+.socials li{
+    margin: 0 10px;
+}
+
+.footer-bottom{
+    width: 100%;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.footer-bottom p{
+    color: white;
+    font-size: 14px;
+    word-spacing: 2px;
+}
