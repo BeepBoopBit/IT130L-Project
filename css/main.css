@@ -1,11 +1,19 @@
+
+*{
+  margin:0px;
+  padding:0px;
+  box-sizing: border-box;
+}
 body {
   font-family: 'Open Sans', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   background-color:#eaf1f5;
 }
 
-section{
-  max-width: 1920px;
+header{
+  width: 100%;
+  overflow: hidden;
 }
+
 
 footer{
   max-width: 1920px;
@@ -15,25 +23,15 @@ footer{
   color: #fff;
 }
 
-*{
-  margin:0px;
-  padding:0px;
-  box-sizing: border-box;
-}
-
-a {
-  text-decoration: none;
-}
-
-table{
-  width:100%;
-}
-
 .centered{
     margin: 0px auto;
 }
 
-.wrapper-all{
-    max-width: 1920px;
+.container-all{
+  width: 100%;
+}
+
+.container-content{
+  max-width: 1920px;
 }
 
