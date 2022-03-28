@@ -1,0 +1,12 @@
+.container-FeaturedCake{
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+.container-AboutUs{
+    display: grid;
+    grid-template-columns: 70% 30%;
+}
+.container-BestSellerSpecial{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}

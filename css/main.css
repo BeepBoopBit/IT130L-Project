@@ -3,8 +3,12 @@ body {
   background-color:#eaf1f5;
 }
 
+section{
+  max-width: 1920px;
+}
+
 footer{
-  max-width: 1700px;
+  max-width: 1920px;
   background:#730101;
   width: 100%;
   padding-top: 40px;
@@ -15,9 +19,6 @@ footer{
   margin:0px;
   padding:0px;
   box-sizing: border-box;
-  /*
-    box-sizing: inherit;
-  */
 }
 
 a {
@@ -33,6 +34,6 @@ table{
 }
 
 .wrapper-all{
-    max-width: 1400px;
+    max-width: 1920px;
 }
 
