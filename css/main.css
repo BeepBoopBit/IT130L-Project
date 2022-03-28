@@ -25,10 +25,6 @@ a {
   text-decoration: none;
 }
 
-table{
-  width:100%;
-}
-
 .centered{
     margin: 0px auto;
 }
@@ -37,3 +33,15 @@ table{
     max-width: 1920px;
 }
 
+.grid{
+  background-color:#ececec;
+  height: auto; 
+  display: grid; 
+  gap: 1em; 
+  margin: 1em; 
+  padding: 1em;
+}
+
+p{
+  margin: 1em;
+}

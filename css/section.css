@@ -7,6 +7,5 @@
     grid-template-columns: 70% 30%;
 }
 .container-BestSellerSpecial{
-    display: grid;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
