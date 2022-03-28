@@ -1,0 +1,27 @@
+
+.top-navigation{
+    display:grid;
+    grid-template-columns: 1fr 10fr 0.2fr 0.2fr; 
+    align-items: center;
+}
+
+.top-navigation ul{
+    list-style-type: none;
+    display: flex;
+}
+
+.top-navigation ul li {
+    padding: 10px;
+}
+
+.top-navigation ul li a{
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.top-navigation ul li a:hover{
+    text-shadow: -7px -10px #aaa;
+    transition: text-shadow 0.5s ease;
+}
+
