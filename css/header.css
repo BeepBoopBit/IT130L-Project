@@ -1,6 +1,7 @@
 
 .top-navigation{
     display:grid;
+    overflow: visible;
     grid-template-columns: 1fr 10fr 0.2fr 0.2fr; 
     align-items: center;
 }
