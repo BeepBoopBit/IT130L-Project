@@ -1,6 +1,10 @@
-.container-FeaturedCake{
-    display: grid;
-    grid-template-columns: 30% 70%;
+.wrapper-FeaturedCake{
+    display: grid; 
+    background-color:dimgrey; 
+    height: auto; 
+    grid-template-columns: repeat(auto-fit, minmax(600px, 1fr)); 
+    gap: 1em; 
+    padding: 1em;
 }
 .container-AboutUs{
     display: grid;
