@@ -4,6 +4,7 @@
   padding:0px;
   box-sizing: border-box;
 }
+
 body {
   font-family: 'Open Sans', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   background-color:#eaf1f5;
@@ -14,6 +15,9 @@ header{
   overflow: hidden;
 }
 
+p{
+  margin: 1em;
+}
 
 footer{
   max-width: 1920px;
@@ -43,6 +47,4 @@ footer{
   padding: 1em;
 }
 
-p{
-  margin: 1em;
-}
+

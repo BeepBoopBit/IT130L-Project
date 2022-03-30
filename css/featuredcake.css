@@ -1,0 +1,28 @@
+.full-menu-button {
+    position: relative;
+    font-size: 15px;
+    text-align: left;
+    text-decoration: none;
+    color: black;
+    border-style: solid;
+    border-width: 2px;
+    background-color: transparent;
+    border-color: black;
+
+}
+
+.full-menu-button:hover{
+    background-color: black;
+    color: black;
+}
+
+.info-FeaturedCake-title{
+    font-size: 30px;
+    padding-bottom: 2%;
+}
+
+.info-FeaturedCake-text{
+    font-size: 15px;
+    padding-bottom: 2%;
+}
+
