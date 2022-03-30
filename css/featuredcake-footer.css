@@ -1,17 +1,5 @@
-
-.footer-content{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    text-align: center;
-}
-
 .socials{
     list-style: none;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     margin: 1rem 0 0 0;
 }
 

@@ -1,14 +1,11 @@
 .wrapper-FeaturedCake{
-    display: grid; 
-    background-color:dimgrey; 
-    height: auto; 
-    grid-template-columns: repeat(auto-fit, minmax(600px, 1fr)); 
-    gap: 1em; 
-    padding: 1em;
+    grid-template-columns: repeat(auto-fit, minmax(600px, 1fr));
+    background-color: white;
 }
 .container-AboutUs{
-    display: grid;
     grid-template-columns: 70% 30%;
+    background-color: white;
+    margin-top: 1em;
 }
 .container-BestSellerSpecial{
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -20,12 +17,7 @@
 }
 
 .bestseller-container{
-height: 750px;
-width: 810px;
-padding: 0px;
 background-color: white;
-align-items: left;
-    
 }
     
 .bestseller-item-container{
@@ -71,8 +63,8 @@ color: gold;
     height: 50px;
     width: 320px;
     position: relative;
-    left: 450px;
-    top: -10px;
+    left: 380px;
+    top: -30px;
     background-color: #7b241c;
     box-shadow: 4px 6px ;
 }
@@ -97,7 +89,12 @@ color: gold;
     
 .red-line-design{
 height: 10px;
-width: 810px;
+width: auto;
 background-color: #7b241c;
     
+}
+
+.speciality-Images {
+    gap: 1em;
+    flex-wrap: wrap;
 }
