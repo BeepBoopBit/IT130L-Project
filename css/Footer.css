@@ -1,20 +1,28 @@
-.socials{
+footer{
+    max-width: 1920px;
+    background:#730101;
+    width: 100%;
+    padding-top: 40px;
+    color: #fff;
+}
+
+.Footer-socials{
     list-style: none;
     margin: 1rem 0 0 0;
 }
 
-.socials li{
+.Footer-socials li{
     margin: 0 10px;
     width: 30px;
 }
 
-.footer-bottom{
+.Footer-bottom{
     width: 100%;
     padding-bottom: 10px;
     text-align: center;
 }
 
-.footer-bottom p{
+.Footer-bottom p{
     color: white;
     font-size: 14px;
     word-spacing: 2px;

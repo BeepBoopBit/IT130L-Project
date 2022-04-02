@@ -1,0 +1,83 @@
+.BestSellerSpecial-container{
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.BestSeller-wrapper {
+    font-size: 30px;
+    font-weight: bold;
+    background-color: white;
+}
+
+.BestSeller-image {
+    padding: 10px;
+    float: left;
+    width: 32%;
+}
+
+.BestSeller-item-container {
+    padding: 5px;
+}
+
+.BestSeller-info-header-menu {
+    padding: 0px;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: left;
+    color: black;
+
+}
+
+.BestSeller-info-description-menu {
+    padding: 0px;
+    font-weight: none;
+    font-size: 20px;
+    text-align: left;
+    color: black;
+
+}
+
+.BestSeller-info-price {
+    padding: 0px;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: left;
+    color: gold;
+
+}
+
+.BestSeller-container-button-order-now {
+    height: 50px;
+    width: 320px;
+    position: relative;
+    left: 380px;
+    top: -30px;
+    background-color: #7b241c;
+    box-shadow: 4px 6px;
+}
+
+.BestSeller-button-order-now:active {
+    text-decoration: none;
+}
+
+.BestSeller-button-order-now:link {
+    text-decoration: none;
+}
+
+.BestSeller-button-order-now {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    font-size: 25px;
+    color: white;
+    font-weight: bold;
+}
+
+.BestSeller-design-red-line {
+    height: 10px;
+    width: auto;
+    background-color: #7b241c;
+
+}
