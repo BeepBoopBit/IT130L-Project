@@ -6,25 +6,12 @@
 }
 
 body {
-  font-family: 'Open Sans', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: 'Open Sans', 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
   background-color:#eaf1f5;
-}
-
-header{
-  width: 100%;
-  overflow: hidden;
 }
 
 p{
   margin: 1em;
-}
-
-footer{
-  max-width: 1920px;
-  background:#730101;
-  width: 100%;
-  padding-top: 40px;
-  color: #fff;
 }
 
 .centered{
@@ -42,8 +29,6 @@ footer{
 .grid{
   height: auto; 
   display: grid; 
-  gap: 1em; 
-  padding: 1em;
 }
 
 .flex {

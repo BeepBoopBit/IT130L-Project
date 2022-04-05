@@ -1,0 +1,46 @@
+.FeaturedCake-slider-show{
+    width: 600px;
+    height: 250px;
+    overflow: hidden;
+}
+
+#FeaturedCake-slider-image-1:target ~ .FeaturedCake-container-slider-image{
+    left: 0px;
+}
+#FeaturedCake-slider-image-2:target ~ .FeaturedCake-container-slider-image{
+    left: -600px;
+}
+#FeaturedCake-slider-image-3:target ~ .FeaturedCake-container-slider-image{
+    left: -1200px;
+}
+#FeaturedCake-slider-image-4:target ~ .FeaturedCake-container-slider-image{
+    left: -1800px;
+}
+
+.FeaturedCake-container-slider-image{
+    width: 400%;
+    height: 250px;
+    position: relative;
+    transition: left 2s;
+}
+
+.FeaturedCake-slider-image{
+    float: left;
+    margin: 0px;
+    padding: 0px;
+}
+
+.FeaturedCake-container-slider-button{
+    position: relative;
+    top: -20px;
+    left: 250px;
+}
+
+.FeaturedCake-slider-button{
+    display:inline-block;
+    height: 20px;
+    width: 20px;
+    border-radius: 5px;
+    background-color: red;
+}
+

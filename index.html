@@ -8,18 +8,24 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap">
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/section.css">
-    <link rel="stylesheet" href="css/header.css">
-    <link rel="stylesheet" href="css/featuredcake-slider.css">
-    <link rel="stylesheet" href="css/featuredcake.css">
-    <link rel="stylesheet" href="css/featuredcake-footer.css">
-    <link rel="stylesheet" href="css/dropdown.css">
+    
+    <!-- Essentials -->
+    <link rel="stylesheet" href="css/Main.css">
+    <link rel="stylesheet" href="css/Section.css">
+    <link rel="stylesheet" href="css/Header.css">
+    <link rel="stylesheet" href="css/Footer.css">
+    <link rel="stylesheet" href="css/Header-dropdown.css">
+    <!-- Dependent -->
+    <link rel="stylesheet" href="css/Section-home-aboutUs.css">
+    <link rel="stylesheet" href="css/Section-home-bestSellerSpecial.css">
+    <link rel="stylesheet" href="css/Section-home-featuredCake.css">
+    <link rel="stylesheet" href="css/Section-home-featuredCake-slider.css">
+    <link rel="stylesheet" href="css/Section-home-specialty.css">
 </head>
 
 <body>
     <header class="centered" style=" background-color:#ddd">
-        <nav class="top-navigation">
+        <nav class="Header-top-navigation">
             <img src="img/Logo_SweetSolution.png" alt="" width="100%">
             <ul style="display: flex;">
                 <li><a>Home</a></li>
@@ -30,11 +36,11 @@
                 <img src="img/Icon_Basket.png" alt="" width="100%">
             </div>
             <!-- Navigation -->
-            <div class="top-navigation-dropdown">
+            <div class="Header-top-navigation-dropdown">
                 <div style="width: 50px">
                     <img src="img/Icon_Navigation-00.png" alt="" width="100%">
                 </div>
-                <div class="top-navigation-dropdown-content">
+                <div class="Header-top-navigation-dropdown-content">
                     <ul>
                         <li>About Us</li>
                         <li>Application</li>
@@ -49,39 +55,39 @@
         </nav>
     </header>
     <section class="centered">
-        <!-- CONTAINER # 1 -->
+        <!-- FeaturedCake # 1 -->
         <div class="container-all" style="background-color: #aaa;">
-            <article class="wrapper-FeaturedCake container-content centered grid">
+            <article class="container-content centered grid FeaturedCake-wrapper ">
                 <!-- Slider -->
-                <div class="slider-show centered">
-                    <span id="slider-image-1"></span>
-                    <span id="slider-image-2"></span>
-                    <span id="slider-image-3"></span>
-                    <span id="slider-image-4"></span>
-                    <div class="slider-image-container">
-                        <img class="slider-image" src="../img/tempShit/temp05.png" alt="">
-                        <img class="slider-image" src="../img/tempShit/temp06.png" alt="">
-                        <img class="slider-image" src="../img/tempShit/temp07.png" alt="">
-                        <img class="slider-image" src="../img/tempShit/temp08.png" alt="">
+                <div class="FeaturedCake-slider-show centered">
+                    <span id="FeaturedCake-slider-image-1"></span>
+                    <span id="FeaturedCake-slider-image-2"></span>
+                    <span id="FeaturedCake-slider-image-3"></span>
+                    <span id="FeaturedCake-slider-image-4"></span>
+                    <div class="FeaturedCake-container-slider-image">
+                        <img class="FeaturedCake-slider-image" src="../img/tempShit/temp05.png" alt="">
+                        <img class="FeaturedCake-slider-image" src="../img/tempShit/temp06.png" alt="">
+                        <img class="FeaturedCake-slider-image" src="../img/tempShit/temp07.png" alt="">
+                        <img class="FeaturedCake-slider-image" src="../img/tempShit/temp08.png" alt="">
                     </div>
-                    <div class="slider-button-container">
-                        <a href="#slider-image-1" class="slider-button"></a>
-                        <a href="#slider-image-2" class="slider-button"></a>
-                        <a href="#slider-image-3" class="slider-button"></a>
-                        <a href="#slider-image-4" class="slider-button"></a>
+                    <div class="FeaturedCake-container-slider-button">
+                        <a class="FeaturedCake-slider-button" href="#FeaturedCake-slider-image-1"></a>
+                        <a class="FeaturedCake-slider-button" href="#FeaturedCake-slider-image-2"></a>
+                        <a class="FeaturedCake-slider-button" href="#FeaturedCake-slider-image-3"></a>
+                        <a class="FeaturedCake-slider-button" href="#FeaturedCake-slider-image-4"></a>
                     </div>
                 </div>
                 <!-- BEST SELLERS TEXT AND BUTTON -->
                 <div>
-                    <div class="info-FeaturedCake-title">Lorem Ipsum</div>
-                    <div class="info-FeaturedCake-text">
+                    <div class="FeaturedCake-info-title">Lorem Ipsum</div>
+                    <div class="FeaturedCake-info-text">
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum maiores, nobis quibusdam saepe
                         nemo rem suscipit nam adipisci fuga corporis?
                     </div>
                     <div>
                         <!-- Menu button -->
                         <a href="../Menu.html">
-                            <button class="full-menu-button">
+                            <button class="FeaturedCake-fullMenu-button">
                                 <span>EXPLORE MORE</span>
                             </button>
                         </a>
@@ -90,10 +96,10 @@
             </article>
 
         </div>
-        <!-- CONTAINER # 2 -->
+        <!-- About Us # 2 -->
         <div class="container-all" style="background-color: #bbb;">
             <!-- About Us Article-->
-            <article class="container-content container-AboutUs centered grid">
+            <article class="container-content centered grid AboutUs-container">
                 <div style="text-align: right;">
                     <h1>This is a header.</h1>
                     <p>
@@ -104,74 +110,76 @@
                     </p>
                     <a href="#">EXPLORE MORE</a>
                 </div>
-                <img src="img\placeholder.jpg" alt="" width="100%">
+                <div>
+                    <img src="img\placeholder.jpg" alt="" width="100%">
+                </div>
             </article>
         </div>
 
         <!-- CONTAINER # 3 -->
         <div class="container-all" style="background-color: #aaa;">
             <!--Best Seller AND Speciality Article-->
-            <article class="container-content container-BestSellerSpecial centered grid">
+            <article class="container-content centered grid BestSellerSpecial-container">
                 <!--Best Seller Section-->
-                <div class="wrapper-BestSeller" style="background-color: #eee;">
+                <div class="BestSeller-wrapper">
                     BEST SELLERS
-                    <div class="red-line-design"> </div>
+                    <div class="BestSeller-design-red-line"> </div>
                     <!--Best Seller: Item containers-->
-                    <div class="bestseller-container grid">
+                    <div class="grid">
                         <!--Item container # 1-->
-                        <div class="bestseller-item-container1">
-                            <img class="bestseller-image" src="img\placeholder.jpg" alt="bestseller1">
-                            <h1 class="bestseller-header">Lorem ipsum dolor sit.</h1>
-                            <p class="bestseller-description">
+                        <div class="BestSeller-container-item">
+                            <img class="BestSeller-image" src="img\placeholder.jpg" alt="bestseller1">
+                            <h1 class="BestSeller-info-header-menu">Lorem ipsum dolor sit.</h1>
+                            <p class="BestSeller-info-description-menu">
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam magnam incidunt esse,
                                 dolores doloribus quod.
                             </p>
-                            <p class="bestseller-price">$800</p>
+                            <p class="BestSeller-info-price">$800</p>
                         </div>
                         <!--Item container # 3-->
-                        <div class="bestseller-item-container2">
-                            <img class="bestseller-image" src="img\placeholder.jpg" alt="bestseller2">
-                            <h1 class="bestseller-header">Lorem ipsum dolor sit.</h1>
-                            <p class="bestseller-description">
+                        <div class="BestSeller-container-item">
+                            <img class="BestSeller-image" src="img\placeholder.jpg" alt="bestseller2">
+                            <h1 class="BestSeller-info-header-menu">Lorem ipsum dolor sit.</h1>
+                            <p class="BestSeller-info-description-menu">
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam magnam incidunt esse,
                                 dolores doloribus quod.
                             </p>
-                            <p class="bestseller-price">$800</p>
+                            <p class="BestSeller-info-price">$800</p>
                         </div>
                         <!--Item container # 3-->
-                        <div class="bestseller-item-container3">
-                            <img class="bestseller-image" src="img\placeholder.jpg" alt="bestseller3">
-                            <h1 class="bestseller-header">Lorem ipsum dolor sit.</h1>
-                            <p class="bestseller-description">
+                        <div class="BestSeller-container-item">
+                            <img class="BestSeller-image" src="img\placeholder.jpg" alt="bestseller3">
+                            <h1 class="BestSeller-info-header-menu">Lorem ipsum dolor sit.</h1>
+                            <p class="BestSeller-info-description-menu">
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam magnam incidunt esse,
                                 dolores doloribus quod.
                             </p>
-                            <p class="bestseller-price">$800</p>
+                            <p class="BestSeller-info-price">$800</p>
                         </div>
                         <!--Item container # 4-->
-                        <div class="bestseller-item-container4">
-                            <img class="bestseller-image" src="img\placeholder.jpg" alt="bestseller4">
-                            <h1 class="bestseller-header">Lorem ipsum dolor sit.</h1>
-                            <p class="bestseller-description">
+                        <div class="BestSeller-container-item">
+                            <img class="BestSeller-image" src="img\placeholder.jpg" alt="bestseller4">
+                            <h1 class="BestSeller-info-header-menur">Lorem ipsum dolor sit.</h1>
+                            <p class="BestSeller-info-description-menu">
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam magnam incidunt esse,
                                 dolores doloribus quod.
                             </p>
-                            <p class="bestseller-price">$800</p>
+                            <p class="BestSeller-info-price">$800</p>
 
                         </div>
                     </div>
                     <!-- Order now button-->
-                    <div class="order-now-button-container">
+                    <div class="BestSeller-container-button-order-now">
                         <button>
-                            <a class="order-now-button" href="menu.html">ORDER NOW</a>
+                            <a class="BestSeller-button-order-now" href="menu.html">ORDER NOW</a>
                         </button>
                     </div>
                 </div>
                 <!--Best Speciality Section-->
-                <div class="wrapper-BestSpecial grid" style="background-color: white;">
+                <div class="grid BestSpecial-wrapper" style="background-color: white;">
                     <h1 style="text-align:center"> This is a header</p>
                         <!--Best Speciality: Image gallery-->
-                        <div class="speciality-Images flex">
+                        <div class="flex BestSpecial-Images">
                             <img width="300px" height="300px" src="img\placeholder.jpg" alt="" width="100%">
                             <img width="300px" height="300px" src="img\placeholder.jpg" alt="" width="100%">
                         </div>
@@ -203,13 +211,13 @@
         <!--Footer Section-->
         <div class="grid">
             <!--Footer: Social button images-->
-            <ul class="socials flex">
-                <li><a href="#"><img width="100%" src="../img/Icon_Facebook.png"></a></li>
-                <li><a href="#"><img width="100%" src="../img/Icon_Instagram.png"></a></li>
-                <li><a href="#"><img width="100%" src="../img/Icon_Twitter.png"></a></li>
-                <li><a href="#"><img width="100%" src="../img/Icon_LinkedIn.png"></a></li>
+            <ul class="Footer-socials flex">
+                <li><a href="#"><img width="100%" src="img/Icon_Facebook.png"></a></li>
+                <li><a href="#"><img width="100%" src="img/Icon_Instagram.png"></a></li>
+                <li><a href="#"><img width="100%" src="img/Icon_Twitter.png"></a></li>
+                <li><a href="#"><img width="100%" src="img/Icon_LinkedIn.png"></a></li>
             </ul>
-            <p class="footer-bottom">
+            <p class="Footer-bottom">
                 Sweet Solutions Bakeshop (Main), B 2 L 8 Simeona Street, Imus, Cavite
             </p>
         </div>
