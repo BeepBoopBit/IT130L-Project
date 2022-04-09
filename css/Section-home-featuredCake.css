@@ -1,21 +1,24 @@
 .FeaturedCake-wrapper{
     grid-template-columns: repeat(auto-fit, minmax(600px, 1fr));
-    background-color: white;
+    background-color: #ECECEC;
+    padding-bottom: 10%;
 }
 
 .FeaturedCake-info-title{
-    font-size: 30px;
+    font-size: 16px;
+    padding-top: 5%;
     padding-bottom: 2%;
 }
 
 .FeaturedCake-info-text{
-    font-size: 15px;
+    font-size: 16px;
     padding-bottom: 2%;
+    padding-right: 20%;
 }
 
 .FeaturedCake-fullMenu-button {
     position: relative;
-    font-size: 15px;
+    font-size: 10px;
     text-align: left;
     text-decoration: none;
     color: black;
@@ -23,6 +26,7 @@
     border-width: 2px;
     background-color: transparent;
     border-color: black;
+    padding: 0.5%;
 
 }
 
