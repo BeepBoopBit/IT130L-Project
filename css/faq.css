@@ -1,0 +1,35 @@
+.faq-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1.5em;
+}
+
+.faq {
+  font-family: sans-serif;
+  font-size: 14px;
+}
+
+.faq-group-heading {
+  margin: 0;
+  padding-bottom: 0.5em;
+  padding-top: 1.5em;
+  text-align: center;
+}
+
+.faq-red-line {
+  height: 2px;
+  width: auto;
+  background-color: #7b241c;
+}
+
+.Faq-group {
+  margin: 1em 0em;
+  padding: 1.5em 0;
+  background-color: white;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  border-radius: 5px;
+}
+
+.faq-group h3 {
+  margin: 1em;
+}
