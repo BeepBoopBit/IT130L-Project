@@ -1,0 +1,35 @@
+.FeaturedCake-wrapper{
+    grid-template-columns: repeat(auto-fit, minmax(600px, 1fr));
+    background-color: white;
+}
+
+.FeaturedCake-info-title{
+    font-size: 30px;
+    padding-bottom: 2%;
+}
+
+.FeaturedCake-info-text{
+    font-size: 15px;
+    padding-bottom: 2%;
+}
+
+.FeaturedCake-fullMenu-button {
+    position: relative;
+    font-size: 15px;
+    text-align: left;
+    text-decoration: none;
+    color: black;
+    border-style: solid;
+    border-width: 2px;
+    background-color: transparent;
+    border-color: black;
+
+}
+
+.FeaturedCake-button-fullMenu-:hover{
+    background-color: black;
+    color: black;
+}
+
+
+

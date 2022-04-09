@@ -1,0 +1,4 @@
+.AboutUs-container{
+    grid-template-columns: 70% 30%;
+    background-color: white;
+}

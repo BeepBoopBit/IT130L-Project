@@ -1,0 +1,32 @@
+.Header-top-navigation-dropdown{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.Header-top-navigation-dropdown:hover > .top-navigation-dropdown-content{
+    opacity: 1;
+}
+
+.Header-top-navigation-dropdown-content{
+    position: absolute;
+    height: 20px;
+    opacity: 0;
+    top: 5%;
+    right: 2%;
+    transition: all 1.4s ease;
+}
+
+.Header-top-navigation-dropdown-content ul{
+    display: flex;
+    flex-direction: column;
+}
+
+.Header-top-navigation-dropdown-content ul li{
+    background-color: #eee;
+    transition: all 0.4s ease;
+}
+.Header-top-navigation-dropdown ul li:hover{
+    background-color: #ddd;
+}
