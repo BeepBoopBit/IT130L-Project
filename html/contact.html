@@ -8,7 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap">
-    
+
     <!-- Essentials -->
     <link rel="stylesheet" href="../css/main.css">
     <link rel="stylesheet" href="../css/section.css">
@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="../css/header-dropdown.css">
     <!-- Dependent -->
     <link rel="stylesheet" href="../css/contact.css">
+
 </head>
 
 <body>
@@ -50,39 +51,130 @@
             </div>
         </nav>
     </header>
-    
+
     <section>
         <!-- TItle text -->
-        <div class="centered contact-title">LET'S CONNECT!</div>
+        <div class="centered Contact-title">LET'S CONNECT!</div>
         <!-- Details -->
-        <div class="">
-            <table class="">
-                <th>Test1</th>
-                <th>Test2</th>
-                <th>Test3</th>
-                <th>Test4</th>
+        <div class="flex Contact-wrapper">
+            <table class="Contact-table">
+                <!-- Icons -->
+                <tr>
+                    <td class="Contact-container-tableCell1">
+                        <img class="Contact-tableImage" src="../img/tempimage1.jpg">
+                    </td>
+                    <td class="Contact-container-tableCell">
+                        <img class="Contact-tableImage" src="../img/tempimage1.jpg">
+                    </td>
+                    <td class="Contact-container-tableCell">
+                        <img class="Contact-tableImage" src="../img/tempimage1.jpg">
+                    </td>
+                    <td class="Contact-container-tableCell">
+                        <img class="Contact-tableImage" src="../img/tempimage1.jpg">
+                    </td>
+                </tr>
+                <!-- Headers -->
+                <tr>
+                    <td class="Contact-container-tableCell1">
+                        <h1 class="Contact-tableHeader">OUR MAIN SHOP</h1>
+                    </td>
+                    <td class="Contact-container-tableCell">
+                        <h1 class="Contact-tableHeader">PHONE NUMBER</h1>
+                    </td>
+                    <td class="Contact-container-tableCell">
+                        <h1 class="Contact-tableHeader">EMAIL</h1>
+                    </td>
+                    <td class="Contact-container-tableCell">
+                        <h1 class="Contact-tableHeader">FACEBOOK</h1>
+                    </td>
+                </tr>
+                <!-- Details -->
+                <tr style="font-size: 14px">
+                    <td class="Contact-container-tableCell1">
+                        <p>Sweet Solutions Bakeshop (Main), B 2 L 8 Simeona Street, Imus, Cavite</p>
+                    </td>
+                    <td class="Contact-container-tableCell">
+                        <p>(046) 471 7720</p>
+                    </td>
+                    <td class="Contact-container-tableCell">
+                        <p>sarah_sweetsolutions1@yahoo.com</p>
+                    </td>
+                    <td class="Contact-container-tableCell">
+                        <p>https://www.facebook.com/SSBakeshop</p>
+                    </td>
+                </tr>
             </table>
         </div>
         <!-- Forms -->
+        <div class="container-all" style="background-color: #ECECEC;">
+            <article class="container-content centered grid Contact-forms">
+                <form class="Contact-wrapper-forms" method="post" action="sarah_sweetsolutions1@yahoo.com"
+                    autocomplete="on">
+                    <div class="Contact-forms-header-inquire">INQUIRE</div>
+                    <div class="grid">
+                        <!--Inquire Section -->
+                        <div class="Contact-container-forms">
+                            <h1 class="Contact-forms-text">Have a question? Ask us here!</h1>
+                            <!-- Full Name -->
+                            <div style="padding: 2%">
+                                <input type="text" placeholder="Full name" name="Full Name" size=70%
+                                    class="Contact-formInput">
+                            </div>
+                            <!-- Email -->
+                            <div style="padding: 2%">
+                                <input type="email" placeholder="Email" name="Email" size=70% class="Contact-formInput">
+                            </div>
+                            <!-- Message Textarea -->
+                            <div style="padding: 2%">
+                                <textarea id="message" placeholder="Message" name="message" rows="10" cols="69"
+                                    class="Contact-formInput">
+                                    </textarea>
+                            </div>
+                        </div>
+
+                    </div>
+                    <!-- Submit button-->
+                    <div class="Contact-container-submit">
+                        <button>
+                            <input class="Contact-submit" type="submit" value="Submit">
+
+                        </button>
+                    </div>
+                </form>
+                <!--Find Us Here Section-->
+                <div class="Contact-wrapper-forms">
+                    <div class="Contact-forms-header-findUsHere">FIND US HERE</div>
+                    <div class="grid">
+                        <div>
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15456.710826740044!2d120.9364448!3d14.4169172!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x7032696b18a4c79c!2sSweet%20Solutions%20Bakeshop%20(Main)!5e0!3m2!1sen!2sph!4v1649601619399!5m2!1sen!2sph"
+                                width="570" height="350" style="border:0; padding: 5%;" allowfullscreen=""
+                                loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+
+                    </div>
+                </div>
+            </article>
+        </div>
 
     </section>
 
-        <!-- FOOTER -->
-        <footer class="centered container-all" style="background: #7b241c;">
-            <!--Footer Section-->
-            <div class="grid">
-                <!--Footer: Social button images-->
-                <ul class="Footer-socials flex">
-                    <li><a href="#"><img width="100%" src="../img/Icon_Facebook.png"></a></li>
-                    <li><a href="#"><img width="100%" src="../img/Icon_Instagram.png"></a></li>
-                    <li><a href="#"><img width="100%" src="../img/Icon_Twitter.png"></a></li>
-                    <li><a href="#"><img width="100%" src="../img/Icon_LinkedIn.png"></a></li>
-                </ul>
-                <p class="Footer-bottom">
-                    Sweet Solutions Bakeshop (Main), B 2 L 8 Simeona Street, Imus, Cavite
-                </p>
-            </div>
-        </footer>
+    <!-- FOOTER -->
+    <footer class="centered container-all" style="background: #7b241c;">
+        <!--Footer Section-->
+        <div class="grid">
+            <!--Footer: Social button images-->
+            <ul class="Footer-socials flex">
+                <li><a href="#"><img width="100%" src="../img/Icon_Facebook.png"></a></li>
+                <li><a href="#"><img width="100%" src="../img/Icon_Instagram.png"></a></li>
+                <li><a href="#"><img width="100%" src="../img/Icon_Twitter.png"></a></li>
+                <li><a href="#"><img width="100%" src="../img/Icon_LinkedIn.png"></a></li>
+            </ul>
+            <p class="Footer-bottom">
+                Sweet Solutions Bakeshop (Main), B 2 L 8 Simeona Street, Imus, Cavite
+            </p>
+        </div>
+    </footer>
 </body>
 
 </html>
