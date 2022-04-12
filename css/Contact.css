@@ -1,6 +1,130 @@
-.contact-title {
+.Contact-wrapper{
+    margin-top: 4%;
+    margin-bottom: 8%;
+}
+
+.Contact-table{
+    text-align: center;
+    table-layout: fixed;
+    width: 75%;
+}
+
+.Contact-title{
     font-size: 25px;
     font-weight: bold;
     text-align: center;
     margin: 2%;
+}
+
+.Contact-container-tableCell1{
+    padding-left: 3%;
+    padding-right: 3%;
+    word-wrap: break-word;
+    vertical-align: top;
+}
+
+.Contact-container-tableCell{
+    padding-left: 3%;
+    padding-right: 3%;
+    border-left:1px solid black;
+    word-wrap: break-word;
+    vertical-align: top;
+}
+
+.Contact-tableHeader{
+    padding-top: 5%;
+    font-size: 17px;
+}
+
+.Contact-tableImage{
+    width: 50%;
+}
+
+.Contact-forms{
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    padding-left: 3%;
+}
+
+.Contact-wrapper-forms {
+    background-color: white;
+    margin-bottom: 20%;
+    margin-right: 10%;
+}
+
+.Contact-forms-header-inquire {
+    margin: 0;
+    padding: 1%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    background-color: #7b241c;
+    color: white;
+    font-weight: bold;
+    border: none;
+    height: 40px;
+    width: 90px;
+    position: relative;
+    left: 90px;
+    top: -20px;
+}
+
+.Contact-forms-header-findUsHere {
+    margin: 0;
+    padding: 1%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    background-color: #7b241c;
+    color: white;
+    font-weight: bold;
+    border: none;
+    height: 40px;
+    width: 145px;
+    position: relative;
+    left: 470px;
+    top: -20px;
+}
+
+.Contact-forms-text {
+    padding-bottom: 10px;
+    padding-left: 10px;
+    font-weight: bold;
+    font-size: 16px;
+    text-align: left;
+    color: black;
+
+}
+
+.Contact-container-forms {
+    padding-left: 10px;
+}
+
+.Contact-container-submit {
+    height: 35px;
+    width: 220px;
+    position: relative;
+    left: 330px;
+    top: 20px;
+    background-color: #7b241c;
+    box-shadow: 4px 6px;
+}
+
+.Contact-submit {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    font-size: 16px;
+    background-color: #7b241c;
+    color: white;
+    font-weight: bold;
+    border: none;
+}
+
+.Contact-formInput {
+    padding: 0.5%; 
+    background-color: #ECECEC; 
+    border: 2px solid #D1D1D1
 }
