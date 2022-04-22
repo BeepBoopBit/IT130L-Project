@@ -44,6 +44,12 @@
   height: 100%;
   object-fit: cover;
   object-position: 50% 50%;
+  cursor: pointer;
+  transition: .5s ease-in-out;
+}
+
+.Gallery-item:hover .image img {
+transform: scale(1.5);
 }
 
 .w-2 {
@@ -61,3 +67,17 @@
 .h-3 {
   grid-row: span 3;
 }
+
+@media screen and (max-width:600px){
+
+  .Gallery{
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .w-2, .w-3 {
+    grid-column: span 1;
+  }
+
+
+}
+
