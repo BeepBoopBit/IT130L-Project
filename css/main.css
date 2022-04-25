@@ -64,3 +64,33 @@ section{
 .img-responsive{
   width: 100%;
 }
+
+.navbar {
+  box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 5%), inset 0 -1px 0 rgb(0 0 0 / 15%);
+}
+
+.drop {
+  visibility: hidden!important;
+}
+
+  @media screen and (max-width:991px){
+    .drop {
+      visibility: visible!important;
+    }
+
+    .padding-cart {
+      padding-left: 12rem;
+    }
+
+    .icon-drop {
+      visibility: hidden!important;
+      width: 0px;
+      height: 0px;
+    }
+  }
+
+  @media screen and (max-width:592px){
+    .padding-cart {
+      padding-left: 5rem;
+    }
+  }

@@ -1,6 +1,7 @@
 .BestSellerSpecial-container{
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     padding-left: 3%;
+    margin-top: -50px;
 }
 
 .BestSeller-wrapper {
