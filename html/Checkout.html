@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap">
     
     <!-- Essentials-->
-    <link rel="stylesheet" href="../css/newMain.css">
+    <link rel="stylesheet" href="../css/main.css">
     <!--Bootstrap-->
     <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.css">
     <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
@@ -18,39 +18,53 @@
 
 <body style="background-color: #ececec;">
     <header>
-        <div class="container-fluid nav-color fixed-top">
+        <div class="container-fluid nav-color fixed-top" >
             <div class="row align-items-center">
-                <div class="col-sm-5 " >
+                <div class="col-xl-2 col-lg-2 col-sm-3 col-12"  >
                     <div style="width: 200px">
                         <img src="../img/Logo_SweetSolution.png" alt="" width="100%">
                     </div>
                 </div>
-                <div class="col-sm-2">
-                    <div class="justify-content-md-center">
-                        Home
+                <div class="col-xl-1 col-lg-1 col-sm-1 col-12" >
+                    <div class="justify-content-md-center" style="text-align: center;">
+                        <a href="../index.html">Home</a>
                     </div>
                 </div>
-                <div class="col-sm-2">
-                    <div class="justify-content-md-center">
-                        Home
+                <div class="col-xl-1 col-lg-1 col-sm-1 col-12" >
+                    <div class="justify-content-md-center" style="text-align: center;">
+                        <a href="../html/menu.html">Menu</a>
                     </div>
                 </div>
-                <div class="col-sm-2">
-                    <div class="justify-content-md-center">
-                        Home
+                <div class="col-xl-1 col-lg-1 col-sm-1 col-12" >
+                    <div class="justify-content-md-center" style="text-align: center;">
+                        <a href="../html/contact.html">Contact</a>
                     </div>
                 </div>
-                <div class="col-sm-1">
-                    <div class="dropdown">
-                        <a href="#" id="imageDropdown" data-bs-toggle="dropdown">
-                            <div style="width: 50px;">
-                                <img src="../img/Icon_Navigation-00.png" alt="" width="100%">
+                <div class="col-xl-4 col-lg-3 col-sm-2 col-12" >
+                </div>
+                
+                <!-- FIX THE CART -->
+                <div class="col-xl-3 col-lg-4 col-sm-4 col-12">
+                    <div class="row justify-content-center align-content-center mx-auto">
+                        <div class="col-xl-3 col-lg-3 col-sm-3 col-2 px-sm-5 px-0 py-3">
+                            <a href="#">
+                                <ion-icon name="cart-outline" style="width:100px"></ion-icon>
+                            </a>
+                        </div>
+                        <div class="col-xl-9 col-3">
+                            <div class="dropdown">
+                                <a href="#" id="imageDropdown" data-bs-toggle="dropdown">
+                                    <div style="width: 50px;">
+                                        <img src="../img/Icon_Navigation-00.png" alt="" width="100%">
+                                    </div>
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                  <a class="dropdown-item" href="../html/AboutUs.html">AboutUs</a>
+                                  <a class="dropdown-item" href="../html/Application.html">Application</a>
+                                  <a class="dropdown-item" href="../html/faq.html">FAQ</a>
+                                  <a class="dropdown-item" href="../html/Gallery.html">Gallery</a>
+                                </div>
                             </div>
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                          <a class="dropdown-item" href="#">Action</a>
-                          <a class="dropdown-item" href="#">Another action</a>
-                          <a class="dropdown-item" href="#">Something else here</a>
                         </div>
                     </div>
                 </div>
