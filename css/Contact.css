@@ -42,13 +42,12 @@
 
 .Contact-forms{
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    padding-left: 3%;
+    padding: 3%;
 }
 
 .Contact-wrapper-forms {
     background-color: white;
     margin-bottom: 20%;
-    margin-right: 10%;
 }
 
 .Contact-forms-header-inquire {
