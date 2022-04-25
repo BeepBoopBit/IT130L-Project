@@ -37,6 +37,7 @@
     object-fit: cover;
     margin-right: 1.5em;
     margin-left: 1.5em;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
 }
 
 .menu-item-text {
@@ -57,7 +58,7 @@
 .menu-item-description {
     line-height: 1.6;
 }
- 
+
 .menu-item-price {
     margin-right: 1.5em;
     color: #730101;
@@ -86,6 +87,7 @@
     display: inline-block;
     font-size: 1.3em;
     text-decoration: none;
+    border-radius: 10px;
     border: none;
     padding: 1rem;
     background-color: white;
@@ -107,6 +109,7 @@ ion-icon {
 .checkout-button {
     font-size: 1em;
     padding: 1rem;
+    border-radius: 10px;
     border: none;
     background-color: #730101;
     box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;

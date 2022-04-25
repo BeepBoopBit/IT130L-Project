@@ -38,3 +38,29 @@ p{
 }
 
 
+section{
+  padding-top:70px;
+}
+
+.img-rounded{
+  border-radius: 50%;
+}
+
+.about-button{
+  background-color: #7b241c; 
+  color:white; 
+  text-decoration: none; 
+  font-weight: bold; 
+  padding: 10px 20px;
+}
+
+.about-button-container{
+  position:relative;
+  margin-top:-10px;
+  margin-right:10px;
+  text-align: right;
+}
+
+.img-responsive{
+  width: 100%;
+}

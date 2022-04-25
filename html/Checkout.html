@@ -9,186 +9,272 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap">
     
-    <!-- Essentials -->
-    <link rel="stylesheet" href="../css/Main.css">
-    <link rel="stylesheet" href="../css/Section.css">
-    <link rel="stylesheet" href="../css/Header.css">
-    <link rel="stylesheet" href="../css/Footer.css">
-    <link rel="stylesheet" href="../css/Header-dropdown.css">
-    <!-- Dependent -->
-    <link rel="stylesheet" href="../css/Section-home-aboutUs.css">
-    <link rel="stylesheet" href="../css/Section-home-bestSellerSpecial.css">
-    <link rel="stylesheet" href="../css/Section-home-featuredCake.css">
-    <link rel="stylesheet" href="../css/Section-home-featuredCake-slider.css">
-    <link rel="stylesheet" href="../css/Section-home-specialty.css">
+    <!-- Essentials-->
+    <link rel="stylesheet" href="../css/main.css">
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.css">
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
 </head>
 
-<body>
-    <header class="centered" style=" background-color:#ddd">
-        <nav class="Header-top-navigation">
-            <img src="img/Logo_SweetSolution.png" alt="" width="100%">
-            <ul style="display: flex;">
-                <li><a>Home</a></li>
-                <li><a>Menu</a></li>
-                <li><a>Contact</a></li>
-            </ul>
-            <div style="width: 50px">
-                <img src="img/Icon_Basket.png" alt="" width="100%">
+<body style="background-color: #ececec;">
+    <header>
+        <div class="container-fluid nav-color fixed-top" >
+            <div class="row align-items-center">
+                <div class="col-xl-2 col-lg-2 col-sm-3 col-12"  >
+                    <div style="width: 200px">
+                        <img src="../img/Logo_SweetSolution.png" alt="" width="100%">
+                    </div>
+                </div>
+                <div class="col-xl-1 col-lg-1 col-sm-1 col-12" >
+                    <div class="justify-content-md-center" style="text-align: center;">
+                        <a href="../index.html">Home</a>
+                    </div>
+                </div>
+                <div class="col-xl-1 col-lg-1 col-sm-1 col-12" >
+                    <div class="justify-content-md-center" style="text-align: center;">
+                        <a href="../html/menu.html">Menu</a>
+                    </div>
+                </div>
+                <div class="col-xl-1 col-lg-1 col-sm-1 col-12" >
+                    <div class="justify-content-md-center" style="text-align: center;">
+                        <a href="../html/contact.html">Contact</a>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-3 col-sm-2 col-12" >
+                </div>
+                
+                <!-- FIX THE CART -->
+                <div class="col-xl-3 col-lg-4 col-sm-4 col-12">
+                    <div class="row justify-content-center align-content-center mx-auto">
+                        <div class="col-xl-3 col-lg-3 col-sm-3 col-2 px-sm-5 px-0 py-3">
+                            <a href="#">
+                                <ion-icon name="cart-outline" style="width:100px"></ion-icon>
+                            </a>
+                        </div>
+                        <div class="col-xl-9 col-3">
+                            <div class="dropdown">
+                                <a href="#" id="imageDropdown" data-bs-toggle="dropdown">
+                                    <div style="width: 50px;">
+                                        <img src="../img/Icon_Navigation-00.png" alt="" width="100%">
+                                    </div>
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                  <a class="dropdown-item" href="../html/AboutUs.html">AboutUs</a>
+                                  <a class="dropdown-item" href="../html/Application.html">Application</a>
+                                  <a class="dropdown-item" href="../html/faq.html">FAQ</a>
+                                  <a class="dropdown-item" href="../html/Gallery.html">Gallery</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <!-- Navigation -->
-            <div class="Header-top-navigation-dropdown">
-                <div style="width: 50px">
-                    <img src="img/Icon_Navigation-00.png" alt="" width="100%">
-                </div>
-                <div class="Header-top-navigation-dropdown-content">
-                    <ul>
-                        <li>About Us</li>
-                        <li>Application</li>
-                        <li>Checkout</li>
-                        <li>Contact</li>
-                        <li>FAQ</li>
-                        <li>Gallery</li>
-                        <li>Menu</li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-    </header>
-    <section class="centered">
-        <!-- About Us # 2 -->
-        <div class="container-all" style="background-color: #bbb;">
-            <article class="container-content centered grid">
-                <h1>Checkout</h1>
-            </article>
-            <article class="container-content centered grid">
-                <div class="grid" style="grid-template-columns: 50% 50%;">
-                    <div>
-                        <div>
-                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsam, ipsum!</p>
-                        </div>
-                        <div style="border: 1px dashed black">
-
-                        </div>
-                        <div>
-                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsam, ipsum!</p>
-                        </div>
-                    </div>
-                    <div style="padding-left: 10px">
-                        <div>
-                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsam, ipsum!</p>
-                        </div>
-                        <div style="border: 1px dashed black">
-
-                        </div>
-                        <div>
-                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsam, ipsum!</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="grid" style="grid-template-columns: 50% 50%;">
-                    <div>
-                        <div>
-                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsam, ipsum!</p>
-                        </div>
-                        <div style="border: 1px dashed black">
-
-                        </div>
-                        <div>
-                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsam, ipsum!</p>
-                        </div>
-                    </div>
-                    <div style="padding-left: 10px">
-                        <div>
-                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsam, ipsum!</p>
-                        </div>
-                        <div style="border: 1px dashed black">
-
-                        </div>
-                        <div>
-                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsam, ipsum!</p>
-                        </div>
-                    </div>
-                </div>
-            </article>
-            <article class="container-content centered grid">
-                <div class="grid" style="grid-template-columns: 60% 20% 20%;">
-                    <div>
-                        <p>item</p>
-                    </div>
-                    <div>
-                        <p>quantity</p>
-                    </div>
-                    <div>
-                        <p>price</p>
-                    </div>
-                </div>
-                <hr style="padding: 5px 5px">
-                <div class="grid" style="grid-template-columns: 60% 20% 20%;">
-                    <div class="grid" style="grid-template-columns: 50% 50%;">
-                        <div>
-                            <img src="../img/placeholder.jpg" alt="" width="100%">
-                        </div>
-                        <div>
-                            <p>item example</p>
-                            <p>remove</p>
-                        </div>
-                    </div>
-                    <div>
-                        <p>1</p>
-                    </div>
-                    <div>
-                        <p>p800</p>
-                    </div>
-                </div>
-                <div class="grid" style="grid-template-columns: 60% 20% 20%;">
-                    <div class="grid" style="grid-template-columns: 50% 50%;">
-                        <div>
-                            <img src="../img/placeholder.jpg" alt="" width="100%">
-                        </div>
-                        <div>
-                            <p>item example</p>
-                            <p>remove</p>
-                        </div>
-                    </div>
-                    <div>
-                        <p>1</p>
-                    </div>
-                    <div>
-                        <p>p800</p>
-                    </div>
-                </div>
-            </article>
-            <article class="container-content centered">
-                <div class="grid" style="grid-template-columns: 80% 20%;">
-                    <div>
-                    </div>
-                    <div>
-                        <p>subtotal: <span>value</span></p>
-                        <p>shipping: <span>value</span></p>
-                        <p>total: <span>value</span></p>
-                        <p>SHOP NOW</p>
-                    </div>
-                </div>
-            </article>
         </div>
+    </header>
+
+    <section>
+        <article class="container" style="padding-bottom: 20px;">
+            <div class="row text-center border-bottom">
+                <h1>
+                    CHECKOUT
+                </h1>
+            </div>
+        </article>
+        <article class="container py-5" style="background-color: white; padding:40px; box-shadow: -2px 0px 10px 5px #8888889d;;">
+            <div class="row">
+                <h3>
+                    ORDER CONFIRMATION
+                </h3>
+            </div>
+            <div class="row">
+                <div class="row">
+                    <div class="col-lg-6 col-sm-12">
+                        <div class="row">
+                            <div class="col-9">
+                                <p>Your Information</p>
+                            </div>
+                            <div class="col-3">
+                                Edit
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div style="border: 1px dashed black;"></div>
+                        </div>
+                        <div class="row">
+                            <div class="col" style="padding-top:10px">
+                                <p>Someone's name here</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-sm-12 px-lg-5 px-sm-0">
+
+                        <div class="row">
+                            <div class="col-9">
+                                <p>Your Information</p>
+                            </div>
+                            <div class="col-3">
+                                Edit
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div style="border: 1px dashed black;"></div>
+                        </div>
+                        <div class="row">
+                            <div class="col" style="padding-top:10px">
+                                <p>Someone's name here</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6 col-sm-12">
+                        <div class="row">
+                            <div class="col-9">
+                                <p>Your Information</p>
+                            </div>
+                            <div class="col-3">
+                                Edit
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div style="border: 1px dashed black;"></div>
+                        </div>
+                        <div class="row">
+                            <div class="col" style="padding-top:10px">
+                                <p>Someone's name here</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-sm-12 px-lg-5 px-sm-0">
+
+                        <div class="row">
+                            <div class="col-9">
+                                <p>Your Information</p>
+                            </div>
+                            <div class="col-3">
+                                Edit
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div style="border: 1px dashed black;"></div>
+                        </div>
+                        <div class="row">
+                            <div class="col" style="padding-top:10px">
+                                <p>Someone's name here</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+        <article class="container py-5" style="padding:40px;">
+            <div class="row">
+                <div class="col-lg-7 col-sm-6 col-6">
+                    <div>
+                        <h6>
+                            Item
+                        </h6>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col-lg-4 col-m-5 col-sm-12">
+                            <div style="width:150px">
+                                <img src="../img/tempimage1.jpg" alt="" class="img-responsive">
+                            </div>
+                        </div>
+                        <div class="col ">
+                            <div class="row px-4">
+                                Item Example
+                            </div>
+                            <div class="row px-4" style="color:rgb(53, 53, 153)">
+                                Remove
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-3 col-3">
+                    <div>
+                        <h6>
+                            Quantity
+                        </h6>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <p>
+                            <span>
+                                1
+                            </span>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-sm-3 col-3">
+                    <div>
+                        <h6>
+                            Price
+                        </h6>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <p>
+                            <span>
+                                1
+                            </span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <hr>
+            </div>
+
+            <div>
+                <div class="row">
+                    <div class="col-lg-9 col-sm-7 col-6 col-5"></div>
+                    <div class="col-2">
+                        Subtotal:
+                    </div>
+                    <div class="col-1 px-lg-0 px-5">
+                        <span><h4>P3200</h4></span>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-9 col-sm-7 col-6 col-5"></div>
+                    <div class="col-2">
+                        Shipping:
+                    </div>
+                    <div class="col-1 px-lg-0 px-5">
+                        <span><h4>P210</h4></span>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-9 col-sm-7 col-6 col-5"></div>
+                    <div class="col-2">
+                        Total: 
+                    </div>
+                    <div class="col-1 px-lg-0 px-5">
+                        <span><h3>P3410</h4></span>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="row">
+                    <div class="col justify-content-end" style="text-align: right; padding-top: 30px">
+                        <a href="#" style="background-color: #7b241c; color:white; text-decoration: none; font-weight: bold; padding: 10px 20px;">
+                            SHOP NOW
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </article>
+
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
 
     </section>
-    <!-- FOOTER -->
-    <footer class="centered container-all" style="background: #7b241c;">
-        <!--Footer Section-->
-        <div class="grid">
-            <!--Footer: Social button images-->
-            <ul class="Footer-socials flex">
-                <li><a href="#"><img width="100%" src="img/Icon_Facebook.png"></a></li>
-                <li><a href="#"><img width="100%" src="img/Icon_Instagram.png"></a></li>
-                <li><a href="#"><img width="100%" src="img/Icon_Twitter.png"></a></li>
-                <li><a href="#"><img width="100%" src="img/Icon_LinkedIn.png"></a></li>
-            </ul>
-            <p class="Footer-bottom">
-                Sweet Solutions Bakeshop (Main), B 2 L 8 Simeona Street, Imus, Cavite
-            </p>
-        </div>
-    </footer>
 </body>
 
 </html>
