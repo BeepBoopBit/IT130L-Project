@@ -9,6 +9,7 @@
     background-color: white;
     margin-bottom: 20%;
     margin-right: 10%;
+    padding-bottom: 100px;
 }
 
 .BestSpecial-wrapper {
@@ -70,35 +71,37 @@
     color: gold;
 
 }
-
-.BestSeller-container-button-order-now {
-    height: 35px;
-    width: 220px;
+.BestSeller-container-button-order-now{
+    display: inline-block;
     position: relative;
-    left: 330px;
-    top: 20px;
+    white-space:nowrap;
+    width: 100%;
+    text-align: right;
+    padding-right: 250px;
+}
+
+.ordernow-button {
     background-color: #7b241c;
-    box-shadow: 4px 6px;
-}
-
-.BestSeller-button-order-now {
-    margin: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    font-size: 16px;
     color: white;
-    font-weight: bold;
+    padding: 15px 25px;
+    text-decoration: none;
+    position: absolute;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    border-radius: 5px;
+    font-size: .8em;
 }
 
-.BestSeller-button-order-now:active {
+.ordernow-button:active {
     text-decoration: none;
 }
 
-.BestSeller-button-order-now:link {
+.ordernow-button:link {
     text-decoration: none;
+}
+
+.ordernow-button:hover {
+    text-decoration: none;
+    color: white;
 }
 
 
