@@ -18,62 +18,76 @@
     <!--Bootstrap-->
     <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.css">
     <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </head>
 
-<body style="background-color: #ececec;">
+<body style="background-color:#ECECEC;">
     <header>
-        <div class="container-fluid nav-color fixed-top" >
-            <div class="row align-items-center">
-                <div class="col-xl-2 col-lg-2 col-sm-3 col-12"  >
-                    <div style="width: 200px">
-                        <img src="../img/Logo_SweetSolution.png" alt="" width="100%">
-                    </div>
-                </div>
-                <div class="col-xl-1 col-lg-1 col-sm-1 col-12" >
-                    <div class="justify-content-md-center" style="text-align: center;">
-                        <a href="../index.html">Home</a>
-                    </div>
-                </div>
-                <div class="col-xl-1 col-lg-1 col-sm-1 col-12" >
-                    <div class="justify-content-md-center" style="text-align: center;">
-                        <a href="../html/menu.html">Menu</a>
-                    </div>
-                </div>
-                <div class="col-xl-1 col-lg-1 col-sm-1 col-12" >
-                    <div class="justify-content-md-center" style="text-align: center;">
-                        <a href="../html/contact.html">Contact</a>
-                    </div>
-                </div>
-                <div class="col-xl-4 col-lg-3 col-sm-2 col-12" >
-                </div>
-                
-                <!-- FIX THE CART -->
-                <div class="col-xl-3 col-lg-4 col-sm-4 col-12">
-                    <div class="row justify-content-center align-content-center mx-auto">
-                        <div class="col-xl-3 col-lg-3 col-sm-3 col-2 px-sm-5 px-0 py-3">
-                            <a href="#">
-                                <ion-icon name="cart-outline" style="width:100px"></ion-icon>
-                            </a>
+        <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-white">
+            <div style="width: 235px; margin-right: 15px">
+                <img src="../img/Logo_SweetSolution.png" alt="" width="100%">
+            </div>
+            <!-- CART media screen -->
+            <a href="../html/Checkout.html" class="drop padding-cart">
+                <ion-icon name="cart-outline" role="img" class="md hydrated" aria-label="cart outline">
+                </ion-icon>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#dropdownnav">
+                <img src="../img/Icon_Navigation-00.png" style="width: 50px">
+            </button>
+            <div class="collapse navbar-collapse" id="dropdownnav">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item fw-bold" style="margin-right: 3em">
+                        <a class="nav-link" href="../index.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item fw-bold" style="margin-right: 3em">
+                        <a class="nav-link" href="../html/menu.html">Menu</a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a class="nav-link" href="../html/contact.html">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link drop" href="../html/AboutUs.html">About us</a>
+                    </li>
+                    <li class="nav-item drop">
+                        <a class="nav-link" href="../html/Application.html">Application</a>
+                    </li>
+                    <li class="nav-item drop">
+                        <a class="nav-link" href="../html/faq.html">FAQ</a>
+                    </li>
+                    <li class="nav-item drop">
+                        <a class="nav-link" href="../html/Gallery.html">Gallery</a>
+                    </li>
+
+                </ul>
+                <!-- CART -->
+                <a class="icon-drop" href="../html/Checkout.html" style="margin-right: 2em">
+                    <ion-icon name="cart-outline" role="img" class="md hydrated" aria-label="cart outline">
+                    </ion-icon>
+                </a>
+                <!-- DROPDOWN -->
+                <div class="dropdown icon-drop" style="margin-right: 2em">
+                    <a class="dropdown-image" href="#" id="imageDropdown" data-bs-toggle="dropdown">
+                        <div style="width: 55px; margin-right: 50px">
+                            <img src="../img/Icon_Navigation-00.png" alt="" width="100%">
                         </div>
-                        <div class="col-xl-9 col-3">
-                            <div class="dropdown">
-                                <a href="#" id="imageDropdown" data-bs-toggle="dropdown">
-                                    <div style="width: 50px;">
-                                        <img src="../img/Icon_Navigation-00.png" alt="" width="100%">
-                                    </div>
-                                </a>
-                                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                  <a class="dropdown-item" href="../html/AboutUs.html">AboutUs</a>
-                                  <a class="dropdown-item" href="../html/Application.html">Application</a>
-                                  <a class="dropdown-item" href="../html/faq.html">FAQ</a>
-                                  <a class="dropdown-item" href="../html/Gallery.html">Gallery</a>
-                                </div>
-                            </div>
-                        </div>
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="../html/AboutUs.html">About us</a>
+                        <a class="dropdown-item" href="../html/Application.html">Application</a>
+                        <a class="dropdown-item" href="../html/faq.html">FAQ</a>
+                        <a class="dropdown-item" href="../html/Gallery.html">Gallery</a>
                     </div>
                 </div>
             </div>
-        </div>
+
+        </nav>
     </header>
 
     <section>
