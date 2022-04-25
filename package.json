@@ -1,5 +1,23 @@
 {
+  "name": "it130project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BeepBoopBit/IT130L-Project.git"
+  },
+  "author": "",
+  "license": "ISC", 
+  "bugs": {
+    "url": "https://github.com/BeepBoopBit/IT130L-Project/issues"
+  },
+  "homepage": "https://github.com/BeepBoopBit/IT130L-Project#readme",
   "dependencies": {
+    "@popperjs/core": "^2.11.5",
     "bootstrap": "^5.1.3"
   }
 }

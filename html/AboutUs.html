@@ -7,206 +7,256 @@
     <title>Sweet Solution</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap">
     
-    <!-- Essentials -->
-    <link rel="stylesheet" href="../css/Main.css">
-    <link rel="stylesheet" href="../css/Section.css">
-    <link rel="stylesheet" href="../css/Header.css">
-    <link rel="stylesheet" href="../css/Footer.css">
-    <link rel="stylesheet" href="../css/Header-dropdown.css">
-    <!-- Dependent -->
-    <link rel="stylesheet" href="../css/Section-home-aboutUs.css">
-    <link rel="stylesheet" href="../css/Section-home-bestSellerSpecial.css">
-    <link rel="stylesheet" href="../css/Section-home-featuredCake.css">
-    <link rel="stylesheet" href="../css/Section-home-featuredCake-slider.css">
-    <link rel="stylesheet" href="../css/Section-home-specialty.css">
+    <!-- Essentials-->
+    <link rel="stylesheet" href="../css/newMain.css">
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.css">
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
 </head>
 
-<body>
-    <header class="centered" style=" background-color:#ddd">
-        <nav class="Header-top-navigation">
-            <img src="img/Logo_SweetSolution.png" alt="" width="100%">
-            <ul style="display: flex;">
-                <li><a>Home</a></li>
-                <li><a>Menu</a></li>
-                <li><a>Contact</a></li>
-            </ul>
-            <div style="width: 50px">
-                <img src="img/Icon_Basket.png" alt="" width="100%">
-            </div>
-            <!-- Navigation -->
-            <div class="Header-top-navigation-dropdown">
-                <div style="width: 50px">
-                    <img src="img/Icon_Navigation-00.png" alt="" width="100%">
+<body style="background-color: #ececec;">
+    <!-- Navigation -->
+    <header>
+        <div class="container-fluid nav-color fixed-top">
+            <div class="row align-items-center">
+                <div class="col-sm-5 " >
+                    <div style="width: 200px">
+                        <img src="../img/Logo_SweetSolution.png" alt="" width="100%">
+                    </div>
                 </div>
-                <div class="Header-top-navigation-dropdown-content">
-                    <ul>
-                        <li>About Us</li>
-                        <li>Application</li>
-                        <li>Checkout</li>
-                        <li>Contact</li>
-                        <li>FAQ</li>
-                        <li>Gallery</li>
-                        <li>Menu</li>
-                    </ul>
+                <div class="col-sm-2">
+                    <div class="justify-content-md-center">
+                        Home
+                    </div>
+                </div>
+                <div class="col-sm-2">
+                    <div class="justify-content-md-center">
+                        Home
+                    </div>
+                </div>
+                <div class="col-sm-2">
+                    <div class="justify-content-md-center">
+                        Home
+                    </div>
+                </div>
+                <div class="col-sm-1">
+                    <div class="dropdown">
+                        <a href="#" id="imageDropdown" data-bs-toggle="dropdown">
+                            <div style="width: 50px;">
+                                <img src="../img/Icon_Navigation-00.png" alt="" width="100%">
+                            </div>
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                          <a class="dropdown-item" href="#">Action</a>
+                          <a class="dropdown-item" href="#">Another action</a>
+                          <a class="dropdown-item" href="#">Something else here</a>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </nav>
+        </div>
     </header>
-    <section class="centered">
-        <!-- About Us # 2 -->
-        <div class="container-all" style="background-color: #bbb;">
-            <!-- About Us Article-->
-            <article class="container-content centered grid" style="grid-template-columns: 30% 70%; background-color: white;">
-                <div>
-                    <img src="../img\placeholder.jpg" alt="" width="100%" style="border-radius: 50%;">
+    <section style="padding-top:70px">
+        <article class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 col-sm-12">
+                    <div class="row">
+                        <div style="width: 400px; margin: 0 auto">
+                            <img class="img-rounded img-responsive" src="../img/tempimage1.jpg" alt="">
+                        </div>
+                    </div>
+                    
+                    <div class="row text-center py-4">
+                        <h3>
+                            Leo Fatugana
+                        </h3>
+                        <h6>
+                            Founder
+                        </h6>
+                    </div>
                 </div>
-                <div style="text-align: right;">
-                    <h1>This is a header.</h1>
+                <div class="col-lg-6 col-sm-12">
+                    <h1>
+                        THE STORY
+                    </h1>
                     <p>
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis tenetur excepturi culpa
-                        debitis harum quam illo id in sit itaque temporibus, provident totam modi voluptatum earum
-                        soluta aut repudiandae? Ipsa, assumenda facere maiores quae dicta placeat quibusdam quidem eius
-                        vitae debitis sapiente eum dignissimos beatae quaerat doloremque repellendus nam rem?
+                        It seems almost unthinkable that a systems engineer like Fajutagana would 
+                        venture into the cake and coffee shop business Sweet Solutions Trading in Imus, Cavite.
+                        <br> <br>
+                        Leo's shipmates in the navy would be totally surprised to find him running a bakeshop.
+                        He used to be in charge of a team of 20 aviation mechanics and technicians tasked with
+                        keeping carrier-based F18 Hornet fighter jets in constant readiness.
+                        <br> <br>
+                        From jets to cakes, where's the connection? Leo, however, 
+                        does not think his naval experience is far too removed from the 
+                        business enterprise He's involved right now. In fact, he says that his navy 
+                        experience has proven to be very helpful in business. The organizational, leadership,
+                        and management skills he learned in the navy helped him to become a successful entrepreneur.
                     </p>
-                    <a href="#">EXPLORE MORE</a>
                 </div>
-            </article>
-            <article class="container-content centered" style="text-align: center;">
-                <h1>Systems approach</h1>
-                <div class="grid" style="grid-template-columns: 70% 30%; text-align: left;">
-                    <div class="grid" style="grid-template-columns: 70% 30%;">
-                        <p>
-                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum enim temporibus dolor tempore tenetur, maxime ullam numquam mollitia sunt nobis animi veritatis, autem deleniti at, esse libero? Ad, quaerat pariatur.
-                        </p>
-                        <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex veritatis placeat officiis. A, illo ab expedita non repellendus in voluptas quae officiis sed ut dolores itaque, consequuntur consequatur repellat error?
-                        </p>
+            </div>
+        </article>
+        
+        <article class="container" style="padding-top:50px">
+            <div class="row">
+                <div class="col text-center">
+                    <h1>
+                        SYSTEMS APPROACH
+                    </h1>
+                </div>
+            </div>
+            <div class="row" style="padding-top:50px">
+                <div class="col-lg-8 col-sm-12">
+                    Leo says the cake and coffee shop business sprang from his passion to build and solve. 
+                    <br><br>
+                    Why did he choose the name Sweet Solutions? Simply, Leo answers, “I would like to provide
+                    baking solutions.” The youthful Fajutagana, who divides his time between Cavite and Okinawa,
+                    runs this business with sister Nora, a college professor.
+                </div>
+                <div class="col-lg-4 col-sm-12 p-lg-0 p-sm-5" >
+                    <div style="background-color: white; padding: 20px">
+                        <h4>
+                            “I would like to provide baking solutions.”
+                        </h4>
                     </div>
                     <div>
-                        <img src="../img\placeholder.jpg" alt="" width="100%" style="border-radius: 50%;">
+                        <div class="about-button-container">
+                            <a class="about-button" href="#">
+                                Leo Futagana
+                            </a>
+                        </div>
                     </div>
                 </div>
-                
-                <div class="grid" style="grid-template-columns: 30% 70%; text-align: left;">
-                    <div>
-                        <img src="../img\placeholder.jpg" alt="" width="100%" style="border-radius: 50%;">
-                    </div>
-                    <div>
-                        <p>
-                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum enim temporibus dolor tempore tenetur, maxime ullam numquam mollitia sunt nobis animi veritatis, autem deleniti at, esse libero? Ad, quaerat pariatur.
-                        </p>
-                        <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex veritatis placeat officiis. A, illo ab expedita non repellendus in voluptas quae officiis sed ut dolores itaque, consequuntur consequatur repellat error?
-                        </p>
+            </div>
+        </article>
+
+        <article class="container" style="padding-top:50px">
+            <div class="row">
+                <div class="col-lg-7 col-sm-12">
+                    <div style="width: 100%">
+                        <img src="../img/tempStuff.gif" alt="" class="img-responsive">
                     </div>
                 </div>
-            </article>
-            <article>
-                <!-- Upper-->
-                <div>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur totam sint minima consequuntur nesciunt nam sunt et iusto, perspiciatis aut nobis. Ipsa, illum officiis sed beatae odit error ipsum a.
+                <div class="col-lg-5 col-sm-12 p-lg-0 p-sm-3">
+                    Does one have to be an experienced baker 19 071 ally, the baking business‘ 
+                    holds according to Nora, who has a doctorate in comparative literature, What the 
+                    Fajutaganas did was to strike up 4 working partnership with Paulie Sandoy, with over 
+                    30 years of experience as a master baker with well- known establishments.
+                    <br><br>
+                    "T set the plan and the strategy,” Leo says. “Kuya Paulie has the final word 
+                    inside the commissary and my Ate overseas sales operations with with the help of 
+                    our store managers.
                 </div>
-                <!-- Can be deleted later-->
-                <div>
-                    <br>
-                    <br>
-                    <br>
-                    <br>
+            </div>
+        </article>
+        
+        <article  class="container" style="padding-top:50px">
+            <div class="row">
+                <div class="col">
+                    While most business owners believe that you have to be 
+                    “100% hands-on" to make a company run smoothly, Leo takes the 
+                    opposite approach. He runs Sweet Solutions from Okinawa where he and his wife, 
+                    a member of the US Air Force, reside. He does business by phone and the internet, 
+                    flying to the Philippines occasionally to check on Sweet Solutions and his other investments.
                 </div>
-                <!-- Middle-->
-                <div class="grid" style="grid-template-columns: 70% 30%;">
-                    <div>
-                        <div style="background-color: white;">
-                            <q>
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium reprehenderit, ea quaerat nisi explicabo consequuntur sed. Illo blanditiis labore quo error molestiae, laborum molestias aspernatur cupiditate eaque, laudantium ad ipsum! 
-                            </q>
-                            <div style="position: absolute; left: 60%; background-color: red;">
-                                <a>
-                                    Nora Futaganna
-                                </a>
+            </div>
+        </article>
+        
+        <article class="container" style="padding-top:50px">
+            <div class="row">
+                <div class="col-lg-8 col-sm-12">
+                    <div class="row">
+                        <div class="col">
+                            <div style="background-color: white; padding: 20px">
+                                "At Sweet Solutions, master baker and cake artists work together to
+                                render both the traditional and 
+                                their one-of-a-kind sugar and gum paste 
+                                creations."
+                            </div>
+                            <div>
+                                <div class="about-button-container">
+                                    <a class="about-button" href="#">
+                                        Leo Futagana
+                                    </a>
+                                </div>
                             </div>
                         </div>
-                        <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed optio animi voluptates sunt dolorum? Rem deserunt totam, modi recusandae sunt asperiores harum suscipit odio enim aliquid consectetur, ullam ipsum eveniet!
-                        </p>
                     </div>
-                    <div>
-                        <div>
-                            <img src="../img\placeholder.jpg" alt="" width="100%" style="border-radius: 50%;">
-                        </div>
-                        <div style="text-align:center;">
-                            <h3>
-                                Nora Fatugana
-                            </h3>
-                            <h4>
-                                Chief Executive Officer
-                            </h4>
+                    <div class="row" style="padding-top: 40px">
+                        <div class="col">
+                            “It is possible to run a business from a remote location as long as standards,
+                            systems, processes, checks, and balances are in place,” says Nora, the chief 
+                            executive officer, who divides her time between the company and University of the 
+                            Philippines Los Banos, Laguna.
+                            <br><br>
+                            Business is about providing solutions, 
+                            Leo explains. An entrepreneur must recognize a need 
+                            and provide a solution for it, “There is a niche for creative,
+                            specialty cakes and we also wanted to be one notch better than the 
+                            leading bakeshop in the country,” he points out.
                         </div>
                     </div>
                 </div>
-            </article>
-        </div>
-        <!-- FeaturedCake # 1 -->
-        <div class="container-all" style="background-color: #aaa;">
-            <article class="container-content centered grid FeaturedCake-wrapper ">
-                <!-- Slider -->
-                <div class="FeaturedCake-slider-show centered">
-                    <span id="FeaturedCake-slider-image-1"></span>
-                    <span id="FeaturedCake-slider-image-2"></span>
-                    <span id="FeaturedCake-slider-image-3"></span>
-                    <span id="FeaturedCake-slider-image-4"></span>
-                    <div class="FeaturedCake-container-slider-image">
-                        <img class="FeaturedCake-slider-image" src="../img/tempShit/temp05.png" alt="">
-                        <img class="FeaturedCake-slider-image" src="../img/tempShit/temp06.png" alt="">
-                        <img class="FeaturedCake-slider-image" src="../img/tempShit/temp07.png" alt="">
-                        <img class="FeaturedCake-slider-image" src="../img/tempShit/temp08.png" alt="">
+                <div class="col-lg-4 col-sm-12 p-lg-0 p-sm-5">
+                    <div class="row">
+                        <div style="width:70%; margin: 0 auto">
+                            <img class="img-rounded img-responsive" src="../img/tempimage1.jpg" alt="">
+                        </div>
                     </div>
-                    <div class="FeaturedCake-container-slider-button">
-                        <a class="FeaturedCake-slider-button" href="#FeaturedCake-slider-image-1"></a>
-                        <a class="FeaturedCake-slider-button" href="#FeaturedCake-slider-image-2"></a>
-                        <a class="FeaturedCake-slider-button" href="#FeaturedCake-slider-image-3"></a>
-                        <a class="FeaturedCake-slider-button" href="#FeaturedCake-slider-image-4"></a>
+                    <div class="row text-center">
+                        <h4>
+                            Nora Fatugana
+                        </h4>
+                        <h5>
+                            Chief Executive Officer
+                        </h5>
                     </div>
                 </div>
-                <!-- BEST SELLERS TEXT AND BUTTON -->
-                <div>
-                    <div class="FeaturedCake-info-title">Lorem Ipsum</div>
-                    <div class="FeaturedCake-info-text">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum maiores, nobis quibusdam saepe
-                        nemo rem suscipit nam adipisci fuga corporis?
+            </div>
+        </article>
+        <article class="container" style="padding-top:50px">
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                <ol class="carousel-indicators">
+                  <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"></li>
+                  <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"></li>
+                  <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="../img/tempimage1.jpg" style="width:800px; height:400px" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block" style="color:black">
+                      <h5>First slide label</h5>
+                      <p>Some representative placeholder content for the first slide.</p>
                     </div>
-                    <div>
-                        <!-- Menu button -->
-                        <a href="../Menu.html">
-                            <button class="FeaturedCake-fullMenu-button">
-                                <span>EXPLORE MORE</span>
-                            </button>
-                        </a>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="../img/tempimage1.jpg" style="width:800px; height:400px" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block" style="color:black">
+                      <h5>Second slide label</h5>
+                      <p>Some representative placeholder content for the second slide.</p>
                     </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="../img/tempimage1.jpg" style="width:800px; height:400px" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block" style="color:black">
+                      <h5>Third slide label</h5>
+                      <p>Some representative placeholder content for the third slide.</p>
+                    </div>
+                  </div>
                 </div>
-            </article>
-
-        </div>
-
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only" style="color:black">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="sr-only" style="color:black">Next</span>
+                </button>
+              </div>
+        </article>
+        
     </section>
-    <!-- FOOTER -->
-    <footer class="centered container-all" style="background: #7b241c;">
-        <!--Footer Section-->
-        <div class="grid">
-            <!--Footer: Social button images-->
-            <ul class="Footer-socials flex">
-                <li><a href="#"><img width="100%" src="img/Icon_Facebook.png"></a></li>
-                <li><a href="#"><img width="100%" src="img/Icon_Instagram.png"></a></li>
-                <li><a href="#"><img width="100%" src="img/Icon_Twitter.png"></a></li>
-                <li><a href="#"><img width="100%" src="img/Icon_LinkedIn.png"></a></li>
-            </ul>
-            <p class="Footer-bottom">
-                Sweet Solutions Bakeshop (Main), B 2 L 8 Simeona Street, Imus, Cavite
-            </p>
-        </div>
-    </footer>
 </body>
 
 </html>
