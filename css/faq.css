@@ -1,12 +1,12 @@
 .Faq-container {
   max-width: 1200px;
-  margin: 0 auto;
+  margin: 2% auto;
   padding: 1.5em;
 }
 
 .Faq {
   font-family: sans-serif;
-  font-size: 14px;
+  font-size: 16px;
 }
 
 .Faq-group-heading {
@@ -24,12 +24,12 @@
 
 .Faq-group {
   margin: 1em 0em;
-  padding: 1.5em 0;
+  padding: 1.5em 3em 1.5em 3em;
   background-color: white;
   box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
   border-radius: 5px;
 }
 
 .Faq-group h3 {
-  margin: 1em;
+  font-size: 22px;
 }

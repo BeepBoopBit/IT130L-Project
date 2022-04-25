@@ -1,6 +1,6 @@
 .menu-container {
     max-width: 1200px;
-    margin: 0 auto;
+    margin: 8% auto;
     padding: 1.5em;
 }
 
@@ -52,11 +52,12 @@
 
 .menu-item-name {
     margin-right: 1.5em;
-    margin-left: 0.8em;
+    margin-left: 0.5em;
 }
 
 .menu-item-description {
     line-height: 1.6;
+    margin: 0 1.5em 0.8em 0.8em;
 }
 
 .menu-item-price {
